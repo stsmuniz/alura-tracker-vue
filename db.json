@@ -1,0 +1,68 @@
+{
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "Alura Tracker"
+    },
+    {
+      "id": 2,
+      "nome": "Plano de estudos (vue 3.0) "
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "duracaoEmSegundos": 3,
+      "descricao": "configuração do ambiente",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker"
+      }
+    },
+    {
+      "duracaoEmSegundos": 4,
+      "descricao": "Teste de modal",
+      "projeto": {
+        "nome": "Plano de estudos (vue)",
+        "id": 2
+      },
+      "id": 2
+    },
+    {
+      "duracaoEmSegundos": 10,
+      "descricao": "Refatoração do VueX",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker"
+      },
+      "id": 3
+    },
+    {
+      "duracaoEmSegundos": 3,
+      "descricao": "Estudando padrões de projeto",
+      "projeto": {
+        "nome": "Plano de estudos (vue)",
+        "id": 2
+      },
+      "id": 4
+    },
+    {
+      "duracaoEmSegundos": 12,
+      "descricao": "Teste dois",
+      "projeto": {
+        "id": 2,
+        "nome": "Plano de estudos (vue 3.0) "
+      },
+      "id": 5
+    },
+    {
+      "duracaoEmSegundos": 5,
+      "descricao": "Teste Tarefa clicada",
+      "projeto": {
+        "id": 2,
+        "nome": "Plano de estudos (vue 3.0) "
+      },
+      "id": 6
+    }
+  ]
+}

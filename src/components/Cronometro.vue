@@ -1,6 +1,6 @@
 <template>
     <section>
-        <strong class="display">{{tempoDecorrido}}</strong>
+        <strong class="display"><i class="fa-regular fa-clock"></i> {{tempoDecorrido}}</strong>
     </section>
 </template>
 
